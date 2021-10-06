@@ -7,9 +7,13 @@
         return $arr2;
     }
 
+    function calcSquare($num){
+        return $num * $num;
+    };
+
     $arr = [1,2,3,4,5];
     $userDefined = function($item){
-        return $item * $item;
+      return calcSquare($item);
     };
 
     $NewArray = arrayMap($arr,$userDefined);
