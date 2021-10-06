@@ -11,5 +11,5 @@
     
     };
 
-    switchTo("Upper");
+    switchTo("Lower");
 ?>
